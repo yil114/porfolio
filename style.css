@@ -50,6 +50,7 @@ nav ul li a:hover{
 }
 
 .intro p{
+  font-size: 20px;
   color: black;
   line-height: 25px;
 }
@@ -128,9 +129,9 @@ span{
 
 .projects {
   /* background-color: var(--bg-color); */
-  padding: 32px 12px;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  padding: 20px 12px;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
 }
 
 .project-pic {
@@ -159,20 +160,20 @@ span{
   padding: 0.4rem;
 }
 
-.project-title {
+/* .project-title {
   margin-bottom: var(--bottom-margin);
-}
+} */
 
-.project-details {
+/* .project-details {
   margin-bottom: var(--bottom-margin);
-}
+} */
 
 .project-card {
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px grey;
   padding: 20px;
-  margin: 10px;
+  margin: 18px;
 }
 
 .project-link-box {
@@ -304,4 +305,29 @@ span{
   font-weight: 600;
   margin-bottom: 10px;
   padding-left: 70px; /* Adjust the value to your desired amount of space */
+}
+
+
+#testimonials{
+  color: #0668E1;
+  text-align: center;
+  background-color:#5ea1f2;
+}
+
+.carousel-item{
+   padding: 7% 15%; */
+}
+/* .testimonials-img{
+  width: 40%;
+  length: 20%;
+  border-radius: 50%;
+  margin:10px;
+} */
+
+.profile-pic{
+
+  border-radius: 5%;
+  margin:10px;
+
+  /* margin: 20px  200px; */
 }
