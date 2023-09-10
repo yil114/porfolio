@@ -1,0 +1,94 @@
+/* extra credit */
+:root{
+  --font-family: 'Papyrus', sans-serif;
+  --pink: #982176;
+}
+/* extra credit */
+@keyframes slideInLeft {
+  from{
+    transform:translateX(-300px);
+  }
+  too{
+    transform:translateX(0);
+  }
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  color: var(--pink);
+  background-color: #FFEEF4;
+  font-family: var(--font-family);
+}
+
+h1 {
+  color: var(--pink);
+  text-align: center;
+  margin: 30px;
+  /* text-shadow: 5px 0 #232931; */
+  font-size: 2.5rem;
+  font-weight: bold;
+  animation-name: slideInLeft;
+  animation-duration: 3s;
+
+}
+
+h2, h3,h4 {
+  color: var(--pink);
+  margin: 30px;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+p {
+  color: var(--pink);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+}
+
+img {
+  width: 60%;
+  background-color: #ef1f1f;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+footer {
+  color: var(--pink);
+  margin-top: 5%;
+  text-align: center;
+  font-family: var(--font-family);
+}
+
+
+
+.myBtn {
+  font-family: var(--font-family);
+  color: var(--pink);
+  /* background-color: white; */
+  border-radius: 8px;
+  border: solid #982176; /* Green */
+  margin: 30px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 1rem;
+
+  transition: all 0.3s;
+}
+
+.myBtn:hover{
+  transform: translateY(-18px);
+  background-color: var(--clr-accent);
+  color: var(--clr-light);
+
+}

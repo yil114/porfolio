@@ -1,0 +1,307 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+.hero{
+  position: relative;
+  width: 100%;
+  left:0;
+  background: transparent;
+}
+
+nav{
+  display:flex;
+  width:84%;
+  margin:auto;
+  padding:20px 0;
+  aligh-items:center;
+  justify-content: space-between;
+}
+
+nav ul li{
+  display:inline-block;
+  list-display:none;
+  margin: 10px 20px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover{
+  color:#0668E1;
+}
+
+.intro{
+  margin-left: 8%;
+  margin-top: 15%;
+}
+
+.intro h1{
+  font-size: 50px;
+  color: #0668E1;
+  margin-bottom: 15px;
+}
+
+.intro p{
+  color: black;
+  line-height: 25px;
+}
+
+span{
+  color: #0668E1;
+}
+
+.intro a{
+  background-color: #0668E1;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.images{
+  width: 45%;
+  height: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.col-sm-4 {
+  flex: 0 0 calc(33.3333% - 30px); /* Adjust the width as needed and consider margin/padding */
+  max-width: calc(33.3333% - 30px); /* Adjust the width as needed and consider margin/padding */
+  margin: 15px; /* Adjust margin as needed */
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align:center;
+  margin
+}
+
+#footer .social-icon {
+  font-size: 24px;
+}
+
+#footer .fa-linkedin{
+  color: black;
+}
+#footer .fa-linkedin:hover {
+  color: #0668E1; /* Color on hover for LinkedIn icon */
+}
+#footer .fa-envelope{
+  color: black;
+}
+
+#footer .fa-envelope:hover {
+  color: #0668E1; /* Color on hover for envelope icon */
+}
+#footer .fa-instagram{
+  color: black;
+}
+
+#footer .fa-instagram:hover {
+  color: #0668E1; /* Color on hover for Instagram icon */
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+.projects {
+  /* background-color: var(--bg-color); */
+  padding: 32px 12px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.project-pic {
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.project-container {
+  text-align: center;
+  width: 21.875rem;
+  padding: 1rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-title {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+  margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px grey;
+  padding: 20px;
+  margin: 10px;
+}
+
+.project-link-box {
+  display: inline-block;
+  background-color: #0668E1; /* Adjust the box background color */
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px; /* Add spacing from the project description */
+}
+
+.project-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.project-link-box:hover {
+  background-color: #5ea1f2; /* Adjust the box background color on hover */
+}
+/* Styles for the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  margin-bottom: 50px;
+}
+
+/* Styles for the scroll-down button */
+/* Styles for the scroll-down button */
+#scroll-down-button {
+  font-size: 20px;
+  color: #0668E1; /* Text color */
+  text-decoration: none;
+  transition: color 0.4s; /* Smooth transition for text color change on hover */
+  background-color: transparent; /* Transparent background */
+  border: none; /* Remove border */
+  padding: 0; /* Remove padding */
+  cursor: pointer; /* Add pointer cursor on hover */
+}
+
+#scroll-down-button:hover {
+  color: #5ea1f2; /* Text color on hover */
+}
+.more-about {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.more-about p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
+/* about section image css */
+/* Styles for the about section */
+#about {
+  background-color: black; /* Background color */
+  padding: 50px 0; /* Adjust padding as needed for consistency */
+}
+
+#about h1 {
+  font-size: 32px; /* Adjust font size */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.imageAboutPage {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%; /* Rounded image */
+}
+
+/* About Me Section Styles */
+.about-me{
+  height: 100vh;
+  width: 100%;
+  padding: 90px 0;
+  background: #EFF9FF;
+}
+.pic{
+  height: auto;
+  width:  302px;
+}
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.text{
+  width: 540px;
+
+}
+.text h2{
+  color:
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.text h5{
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+span{
+  color: #4070f4;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.data{
+  margin-top: 30px;
+}
+.outside{
+  margin-left: auto;
+  text-align: left;
+  margin:150px;
+}
+.outside h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-left: 70px; /* Adjust the value to your desired amount of space */
+}
